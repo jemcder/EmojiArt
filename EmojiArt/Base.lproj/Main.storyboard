@@ -15,8 +15,8 @@
             <objects>
                 <splitViewController id="H77-wj-try" sceneMemberID="viewController">
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="showDetail" id="HHn-sG-KIw"/>
-                        <segue destination="l5E-H5-Y72" kind="relationship" relationship="masterViewController" id="oZc-mC-mjk"/>
+                        <segue destination="BYZ-38-t0r" kind="showDetail" id="y81-Vv-OXo"/>
+                        <segue destination="l5E-H5-Y72" kind="relationship" relationship="masterViewController" id="9i2-Kc-BMo"/>
                     </connections>
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LeB-cT-qHu" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -65,7 +65,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kAx-jV-Z2T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="738.8671875" y="25"/>
+            <point key="canvasLocation" x="706" y="713"/>
         </scene>
         <!--Emoji Art View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -108,7 +108,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="15" y="742"/>
+            <point key="canvasLocation" x="-58" y="790"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="oaA-oM-Zd8">
