@@ -17,7 +17,6 @@ class EmojiArtViewController: UIViewController, UIDropInteractionDelegate
         }
     }
 
-
     func dropInteraction(_ interaction: UIDropInteraction, canHandle session: UIDropSession) -> Bool {
         return session.canLoadObjects(ofClass: NSURL.self) && session.canLoadObjects(ofClass: UIImage.self)
     }
@@ -45,7 +44,6 @@ class EmojiArtViewController: UIViewController, UIDropInteractionDelegate
                 self.imageFetcher.backup = image
             }
         }
-
     }
 
     @IBOutlet weak var emojiArtView: EmojiArtView!
